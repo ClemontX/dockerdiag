@@ -70,4 +70,4 @@ jobs:
           file: ./Dockerfile
           platforms: linux/amd64,linux/arm64,linux/ppc64le
           push: true
-          tags: ${{ steps.prep.outputs.tags }}
+          tags: $IMAGE_NAME
